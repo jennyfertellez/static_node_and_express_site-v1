@@ -6,7 +6,7 @@
         "description": "",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/jennyfertellez/a_random_quote_generator-v1.git",
         "image_urls": [""]
       },
       {
@@ -15,7 +15,7 @@
         "description": "",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/jennyfertellez/data-pagination-and-filtering-v1.git",
         "image_urls": [""]
       },
       {
@@ -24,7 +24,7 @@
         "description": "",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/jennyfertellez/interactive-form-v3-2022.git",
         "image_urls": [""]
       },
       {
@@ -33,7 +33,7 @@
         "description": "",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/jennyfertellez/oop_game-v2.git",
         "image_urls": [""]
       },
       {
@@ -42,7 +42,7 @@
         "description": "",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
-        "github_link": "",
+        "github_link": "https://github.com/jennyfertellez/Public-API-Requests-2022.git",
         "image_urls": [""]
       }
     ]
