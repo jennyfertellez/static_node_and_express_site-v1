@@ -7,7 +7,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/a_random_quote_generator-v1.git",
-        "image_urls": [""]
+        "image_urls": ["/static/images/Unit1_1200px.png", "/static/images/Unit1_550px.png"]
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/data-pagination-and-filtering-v1.git",
-        "image_urls": [""]
+        "image_urls": ["/static/images/Unit2_1200px.png", "/static/images/Unit2_550px.png"]
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/interactive-form-v3-2022.git",
-        "image_urls": [""]
+        "image_urls": ["/static/images/Unit3_1200px.png", "/static/images/Unit3_550px.png"]
       },
       {
         "id": 4,
@@ -34,7 +34,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/oop_game-v2.git",
-        "image_urls": [""]
+        "image_urls": ["/static/images/Unit4_1200px.png", "/static/images/Unit4_550px.png"]
       },
       {
         "id": 5,
@@ -43,7 +43,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/Public-API-Requests-2022.git",
-        "image_urls": [""]
+        "image_urls": ["/static/images/Unit5_1200px.png", "/static/images/Unit5_550px.png"]
       }
     ]
   }
