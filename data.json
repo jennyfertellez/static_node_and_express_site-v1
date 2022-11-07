@@ -1,0 +1,49 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "project_name": "Unit 1: Random Quote Generator",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [""]
+      },
+      {
+        "id": 2,
+        "project_name": "Unit 2: Student Page Gallery",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [""]
+      },
+      {
+        "id": 3,
+        "project_name": "Unit 3: Registration Form",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [""]
+      },
+      {
+        "id": 4,
+        "project_name": "Unit 4: Phrase Game",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [""]
+      },
+      {
+        "id": 5,
+        "project_name": "Unit 5: Employee Directory",
+        "description": "",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "",
+        "github_link": "",
+        "image_urls": [""]
+      }
+    ]
+  }
