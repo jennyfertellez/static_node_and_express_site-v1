@@ -17,7 +17,7 @@ app.use("/images", express.static("images"));
 //Routes Set Up
 // Index Route
 app.get('/', (req, res) => {
-    res.render('index', data)
+    res.render('index', projects)
 })
 
 //About Route
