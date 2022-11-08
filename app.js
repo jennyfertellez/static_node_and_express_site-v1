@@ -1,6 +1,7 @@
 //Required Dependencies
 const express = require("express");
-const data = require("./data.json");
+const { render } = require("pug")
+const { projects } = require("./data.json");
 const app = express();
 const port = 3000;
 
@@ -26,11 +27,11 @@ app.get('/about', (req, res) => {
 
 //Project Route
 app.get('/projects/:id', (req, res, next) => {
-    const projectId = req.params.id;
-    const projects = projects.find(({ id }) => id === +projectId);
+    let projectId = parseInt(req.params.id)
+    let project = projects.find(project => project.id === projectId);
 
-    if (projects) {
-        res.render('project', { data });
+    if (project) {
+        res.render('project', { projects });
     } else {
         next();
     }
