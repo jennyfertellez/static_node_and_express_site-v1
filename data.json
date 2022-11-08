@@ -5,7 +5,7 @@
         "project_name": "Unit 1: Random Quote Generator",
         "description": "Created a Random Quote Genrator that displayed a random quote upon clicking a button.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "",
+        "live_link": "https://jennyfertellez.github.io/a_random_quote_generator-v1/",
         "github_link": "https://github.com/jennyfertellez/a_random_quote_generator-v1.git",
         "image_urls": ["/static/images/Unit1_1200px.png", "/static/images/Unit1_550px.png"]
       },
