@@ -3,7 +3,7 @@
       {
         "id": 1,
         "project_name": "Unit 1: Random Quote Generator",
-        "description": "",
+        "description": "Created a Random Quote Genrator that displayed a random quote upon clicking a button.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/a_random_quote_generator-v1.git",
@@ -12,7 +12,7 @@
       {
         "id": 2,
         "project_name": "Unit 2: Student Page Gallery",
-        "description": "",
+        "description": "Developed several pages of student data that a user can navigate a get a closer view of.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/data-pagination-and-filtering-v1.git",
@@ -21,7 +21,7 @@
       {
         "id": 3,
         "project_name": "Unit 3: Registration Form",
-        "description": "",
+        "description": "Developed a registration form that allowed users to place orders, submit orders, and interacte with the different options.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/interactive-form-v3-2022.git",
@@ -30,7 +30,7 @@
       {
         "id": 4,
         "project_name": "Unit 4: Phrase Game",
-        "description": "",
+        "description": "Create a Object-Oriented Game that randomly selected a phrase, in which the player had five tries to figure out the phrase. Once the player figure out the phrase, the Game will congratulate them and give them the option to start over. If the player ran out of lives, the game will end and give them the option to restart the game.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/oop_game-v2.git",
@@ -39,7 +39,7 @@
       {
         "id": 5,
         "project_name": "Unit 5: Employee Directory",
-        "description": "",
+        "description": "Using an Application Programming Interface, I developed an employee directory that pulled certain information and display it for the user.",
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "https://github.com/jennyfertellez/Public-API-Requests-2022.git",
