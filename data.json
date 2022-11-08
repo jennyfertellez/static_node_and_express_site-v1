@@ -1,7 +1,7 @@
 {
     "projects": [
       {
-        "id": 1,
+        "id": 0,
         "project_name": "Unit 1: Random Quote Generator",
         "description": "Created a Random Quote Genrator that displayed a random quote upon clicking a button.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -10,7 +10,7 @@
         "image_urls": ["/static/images/Unit1_1200px.png", "/static/images/Unit1_550px.png"]
       },
       {
-        "id": 2,
+        "id": 1,
         "project_name": "Unit 2: Student Page Gallery",
         "description": "Developed several pages of student data that a user can navigate a get a closer view of.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -19,7 +19,7 @@
         "image_urls": ["/static/images/Unit2_1200px.png", "/static/images/Unit2_550px.png"]
       },
       {
-        "id": 3,
+        "id": 2,
         "project_name": "Unit 3: Registration Form",
         "description": "Developed a registration form that allowed users to place orders, submit orders, and interacte with the different options.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -28,7 +28,7 @@
         "image_urls": ["/static/images/Unit3_1200px.png", "/static/images/Unit3_550px.png"]
       },
       {
-        "id": 4,
+        "id": 3,
         "project_name": "Unit 4: Phrase Game",
         "description": "Create a Object-Oriented Game that randomly selected a phrase, in which the player had five tries to figure out the phrase. Once the player figure out the phrase, the Game will congratulate them and give them the option to start over. If the player ran out of lives, the game will end and give them the option to restart the game.",
         "technologies": ["HTML", "CSS", "JavaScript"],
@@ -37,7 +37,7 @@
         "image_urls": ["/static/images/Unit4_1200px.png", "/static/images/Unit4_550px.png"]
       },
       {
-        "id": 5,
+        "id": 4,
         "project_name": "Unit 5: Employee Directory",
         "description": "Using an Application Programming Interface, I developed an employee directory that pulled certain information and display it for the user.",
         "technologies": ["HTML", "CSS", "JavaScript"],
