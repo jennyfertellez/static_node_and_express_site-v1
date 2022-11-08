@@ -1,7 +1,7 @@
 //Required Dependencies
 const express = require("express");
 const { render } = require("pug")
-const { info }= require("./data.json");
+const { info } = require("./data.json");
 const app = express();
 const port = 3000;
 
