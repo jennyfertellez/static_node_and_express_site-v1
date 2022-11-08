@@ -23,7 +23,7 @@
         "project_name": "Unit 3: Registration Form",
         "description": "Developed a registration form that allowed users to place orders, submit orders, and interacte with the different options.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "",
+        "live_link": "https://jennyfertellez.github.io/interactive-form-v3-2022/",
         "github_link": "https://github.com/jennyfertellez/interactive-form-v3-2022.git",
         "image_urls": ["/static/images/Unit3_1200px.png", "/static/images/Unit3_550px.png"]
       },
