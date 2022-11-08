@@ -32,7 +32,7 @@
         "project_name": "Unit 4: Phrase Game",
         "description": "Create a Object-Oriented Game that randomly selected a phrase, in which the player had five tries to figure out the phrase. Once the player figure out the phrase, the Game will congratulate them and give them the option to start over. If the player ran out of lives, the game will end and give them the option to restart the game.",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "live_link": "",
+        "live_link": "https://jennyfertellez.github.io/oop_game-v2/",
         "github_link": "https://github.com/jennyfertellez/oop_game-v2.git",
         "image_urls": ["/static/images/Unit4_1200px.png", "/static/images/Unit4_550px.png"]
       },
