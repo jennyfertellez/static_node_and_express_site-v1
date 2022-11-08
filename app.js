@@ -1,3 +1,4 @@
+//Required Dependencies
 const express = require("express");
 const data = require("./data.json");
 const app = express();
@@ -11,3 +12,15 @@ app.set('view engine', 'pug');
 //Set the path for express.static function
 app.use("/static", express.static("public"));
 app.use("/images", express.static("images"));
+
+//Routes Set Up
+// Index Route
+
+
+//About Route
+
+
+//Project Route
+
+
+//Start Server on Port 3000
