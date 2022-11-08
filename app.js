@@ -18,7 +18,9 @@ app.use("/images", express.static("images"));
 
 
 //About Route
-
+app.get('/about', (req, res) => {
+    res.render('about');
+})
 
 //Project Route
 
