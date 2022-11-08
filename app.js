@@ -4,9 +4,10 @@ const app = express();
 const port = 3000;
 
 
+//Middleware Set Up
+//Pug Set up
+app.set('view engine', 'pug');
+
 //Set the path for express.static function
 app.use("/static", express.static("public"));
 app.use("/images", express.static("images"));
-
-//Middleware Set Up
-app.set('view engine', 'pug');
