@@ -29,7 +29,7 @@ app.get('/projects/:id', (req, res, next) => {
     const projectId = req.params.id;
     const projects = projects.find(({ id }) => id === +projectId);
 
-    if (project) {
+    if (projects) {
         res.render('project', { data });
     } else {
         next();
