@@ -25,6 +25,18 @@ app.get('/about', (req, res) => {
 })
 
 //Project Route
+app.get('/projects/:id', (req, res, next) => {
+    const projectId = req.params.id;
+    const projects = projects.find(({ id }) => id === +projectId);
 
+    if (project) {
+        res.render('project', { project });
+    } else {
+        next();
+    }
+});
 
 //Start Server on Port 3000
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+})
