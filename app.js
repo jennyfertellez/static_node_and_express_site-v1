@@ -1,8 +1,10 @@
 //Required Dependencies
 const express = require("express");
-const { projects } = require("./data.json");
 const app = express();
 const port = 3000;
+
+const { projects } = require("./data.json");
+
 
 
 //Middleware Set Up
@@ -27,6 +29,7 @@ app.get('/about', (req, res) => {
 //Project Route
 app.get('/projects/:id', (req, res, next) => {
     const projectId = parseInt(req.params.id)
+    console.log(projectId)
     const project = projects.find(({ id })=> id === +projectId);
 
     if (project) {
