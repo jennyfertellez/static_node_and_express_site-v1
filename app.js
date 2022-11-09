@@ -8,9 +8,6 @@ const { projects } = require("./data.json");
 
 
 //Middleware Set Up
-const bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: false }));
-
 //Pug Set up
 app.set('view engine', 'pug');
 
