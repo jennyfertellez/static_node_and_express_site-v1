@@ -8,6 +8,8 @@ const { projects } = require("./data.json");
 
 
 //Middleware Set Up
+app.use(bodyParser.urlencoded({ extended: false }));
+
 //Pug Set up
 app.set('view engine', 'pug');
 
@@ -29,7 +31,7 @@ app.get('/about', (req, res) => {
 //Project Route
 app.get('/projects/:id', (req, res, next) => {
     const projectId = parseInt(req.params.id)
-    const project = projects.find(({ id })=> id === +projectId);
+    const project = projects.find(({ id })=> project.id === +projectId);
 
     if (project) {
         res.render('project', { projects });
