@@ -29,7 +29,6 @@ app.get('/about', (req, res) => {
 //Project Route
 app.get('/projects/:id', (req, res, next) => {
     const projectId = parseInt(req.params.id)
-    console.log(projectId)
     const project = projects.find(({ id })=> id === +projectId);
 
     if (project) {
