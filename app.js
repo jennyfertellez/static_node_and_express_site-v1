@@ -1,6 +1,5 @@
 //Required Dependencies
 const express = require("express");
-//const { render } = require("pug")
 const { projects } = require("./data.json");
 const app = express();
 const port = 3000;
@@ -17,21 +16,21 @@ app.use("/images", express.static("images"));
 //Routes Set Up
 // Index Route
 app.get('/', (req, res) => {
-    res.render('index', projects)
+    res.render('index', { projects })
 })
 
 //About Route
 app.get('/about', (req, res) => {
     res.render('about');
-})
+});
 
 //Project Route
 app.get('/projects/:id', (req, res, next) => {
     const projectId = parseInt(req.params.id)
-    const project = projects.find(project => project.id === projectId);
+    const project = projects.find(({ id })=> id === +projectId);
 
     if (project) {
-        res.render('project', { projects });
+        res.render('project', { project });
     } else {
         next();
     }
