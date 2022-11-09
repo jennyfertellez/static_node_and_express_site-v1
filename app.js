@@ -43,10 +43,22 @@ app.get('/projects/:id', (req, res, next) => {
 app.use((req, res, next) => {
     const err = new Error("Not Found");
     err.status = 404;
+    err.message = 'Oops, looks like the project requested does not exist.'
     next(err);
 });
 
+//Global Error
+app.use((err, req, res, next) => {
+    if(err.status === 400) {
+        res.send('Oops, something went wrong!');
+        console.log('Oops, something went wrong!')
+    } else {
+        console.log(err.status);
+        console.log(err.message);
+    }
+})
+
 //Start Server on Port 3000
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`The application is running on localhost:${port}`);
 })
