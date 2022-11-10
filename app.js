@@ -2,16 +2,11 @@
 const express = require("express");
 const app = express();
 const port = 3000;
-const bodyParser = require('body-parser');
-
 const { projects } = require("./data.json");
 
 
 
 //Middleware Set Up
-//Body Parser
-app.use(bodyParser.urlencoded({extended: false}));
-
 //Pug Set up
 app.set('view engine', 'pug');
 
