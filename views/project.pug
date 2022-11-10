@@ -25,7 +25,7 @@ block content
 
           //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
           each technology in project.technologies 
-          li= technology 
+            li= technology 
 
         //- Add the href values to the links below
         a.btn-link(href=`${project.live_link}`, target='_blank') Live Demo
@@ -34,7 +34,7 @@ block content
     .project-img-box.box
 
       //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
-      img.project-img(src=`${project.image_urls}`, alt=`screenshot of ${project.project_name}`)
+      img.project-img(src=`${project.image_urls[0]}`, alt=`screenshot of ${project.project_name}`)
 
     nav.nav
       a(href='/')
