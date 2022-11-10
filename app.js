@@ -12,7 +12,6 @@ app.set('view engine', 'pug');
 
 //Set the path for express.static function
 app.use("/static", express.static("public"));
-app.use("/images", express.static("images"));
 
 //Routes Set Up
 // Index Route
@@ -40,20 +39,26 @@ app.get('/projects/:id', (req, res, next) => {
 //Error Handlers
 // 404 handler
 app.use((req, res, next) => {
-    const err = new Error("Not Found");
+    const error = new Error("Not Found");
     err.status = 404;
-    err.message = 'Oops, looks like the project requested does not exist.'
-    next(err);
+    console.log(error.status, error.message)
+    throw error
 });
 
 //Global Error
-app.use((err, req, res, next) => {
-    if(err.status === 400) {
-        res.send('Oops, something went wrong!');
-        console.log('Oops, something went wrong!')
-    } else {
-        console.log(err.status);
-        console.log(err.message);
+app.use((error, req, res, next) => {
+    if(!error.status) {
+        error.status = 500
+    } 
+    if (!error.message) {
+        error.message = "Unknown Problem with the Server"
+    }
+    console.log(error.status, error.message)
+    if (error.status === 404) {
+        res.status(404).render('Page-Not-Found', {error})
+    }
+    else {
+        res.status(error.status).render('error', {error})
     }
 })
 
