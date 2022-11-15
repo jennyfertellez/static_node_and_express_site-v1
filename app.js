@@ -40,25 +40,20 @@ app.get('/projects/:id', (req, res, next) => {
 // 404 handler
 app.use((req, res, next) => {
     const error = new Error("Not Found");
-    err.status = 404;
-    console.log(error.status, error.message)
-    throw error
+    error.status = 404;
+    error.message = "Looks Like The Project Does Not Exist.";
+   next(error);
 });
 
 //Global Error
 app.use((error, req, res, next) => {
-    if(!error.status) {
-        error.status = 500
-    } 
-    if (!error.message) {
-        error.message = "Unknown Problem with the Server"
-    }
-    console.log(error.status, error.message)
-    if (error.status === 404) {
-        res.status(404).render('Page-Not-Found', {error})
-    }
-    else {
-        res.status(error.status).render('error', {error})
+    if(error.status === 400) {
+       res.send("Oh no! Something went wrong.");
+       console.log("Oh no! Something went wrong.");
+
+    } else {
+        console.log(error.status);
+        console.log(error.message);
     }
 })
 
